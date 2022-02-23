@@ -14,4 +14,7 @@ node {
 	stage("Send Notification"){
 			echo "Hello"
     }
+	stage("Send email"){
+		mail "abdullaherol07@gmail.com"
+    }
 }
